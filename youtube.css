@@ -1,0 +1,68 @@
+/* Search bar */
+.search {
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* First thumbnail */
+.thumbnail1 {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Second thumbnail */
+.thumbnail2 {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+    
+}
+
+/* Description text */
+.desc {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+    width: 200px;
+    display: inline-block;
+    
+}
+
+/* Author name */
+.author {
+    color: gray;
+    font-size: 13px;
+    margin: 2px 0;
+}
+
+/* Views and time */
+.views {
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Video preview containers */
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.video-preview2 {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.channel-carry{
+    width: 50px;
+    display: inline-block;
+}
+.carry-info{
+    width: 00px;
+}
