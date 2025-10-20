@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --grid-gap: 16px;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
     background-color: #f9f9f9;
@@ -106,7 +110,7 @@ body {
 .video-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: var(--grid-gap);
     margin: 0 auto;
 }
 
@@ -255,15 +259,15 @@ body {
 /* Responsive Design */
 @media (max-width: 1200px) {
     .video-card {
-        flex: 1 1 calc(33.333% - 16px);
-        max-width: calc(33.333% - 16px);
+        flex: 1 1 calc(33.333% - var(--grid-gap));
+        max-width: calc(33.333% - var(--grid-gap));
     }
 }
 
 @media (max-width: 900px) {
     .video-card {
-        flex: 1 1 calc(50% - 16px);
-        max-width: calc(50% - 16px);
+        flex: 1 1 calc(50% - var(--grid-gap));
+        max-width: calc(50% - var(--grid-gap));
     }
     
     .header-center {
